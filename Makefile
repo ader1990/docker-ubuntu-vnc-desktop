@@ -1,10 +1,10 @@
 .PHONY: build run
 
 # Default values for variables
-REPO  ?= dorowu/ubuntu-desktop-lxde-vnc
-TAG   ?= latest
+REPO  ?= tiryoh/ubuntu-desktop-lxde-vnc
+TAG   ?= melodic-cuda-10.2
 # you can choose other base image versions
-IMAGE ?= ubuntu:18.04
+IMAGE ?= nvidia/cuda:10.2-base-ubuntu18.04
 # choose from supported flavors (see available ones in ./flavors/*.yml)
 FLAVOR ?= lxde
 # armhf or amd64
