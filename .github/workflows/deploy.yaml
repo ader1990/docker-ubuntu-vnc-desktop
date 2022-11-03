@@ -10,7 +10,7 @@ env:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     strategy:
       matrix:
         distro:
