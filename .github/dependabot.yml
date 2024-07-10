@@ -6,9 +6,9 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 10
     reviewers:
-      - "Tiryoh"
+      - "ader1990"
     assignees:
-      - "Tiryoh"
+      - "ader1990"
     labels:
       - "Type: Dependencies"
       - "Lang: Dockerfile"
